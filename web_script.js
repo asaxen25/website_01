@@ -1,13 +1,15 @@
-var students = ["John" , "Jacob" , "Jingle" , "Heimer", "Smith"];
+var name1 = prompt('What is your userid?');
 
-for(x=0; x < students.length; x++){
-    console.log(students[x]);
+
+function greeting(yourName) {
+    var result = 'Hello '+ yourName;
+    console.log(result);
 }
 
-function area(len, wid) {
-    return(len*wid);
+if(name1 == 'ashishsaxena25') {
+    greeting('Ashish');
+} else {
+    console.log("Please sign up to view the content");
 }
 
-var x = 10;
-var y = 5;
-console.log("Area is: " + area(x,y))
+
